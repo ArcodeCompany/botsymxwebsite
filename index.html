@@ -1,12 +1,10 @@
-<!-- Change the value of lang="en" attribute if your website's language is not English.
-You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Arcode</title>
-        <meta name="description" content="">    
+        <title>Botsy</title>
+        <meta name="description" content="Software Curation, Cloud Development, Mobile Apps; Achieve… the unreachable.">    
         <meta charset="utf-8">
-        <meta name="author" content="https://themeforest.net/user/bestlooker/portfolio">
+        <meta name="author" content="Botsy">
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
@@ -14,15 +12,14 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <link rel="shortcut icon" href="images/favicon.png">
 
         <!-- CSS -->
+		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style-responsive.css">
         <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/splitting.css">
-        
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		
     </head>
     <body class="appear-animate">
         
@@ -43,11 +40,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             <nav class="main-nav dark light-after-scroll transparent stick-fixed wow-menubar">
                 <div class="full-wrapper relative clearfix">
                     
-                    <!-- Logo ( * your text or image into link tag *) -->
+                    <!-- Logo -->
                     <div class="nav-logo-wrap local-scroll">
                         <a href="index.html" class="logo">
-                            <img src="images/logo-white.png" alt="Company logo" width="118" height="37" class="logo-white" />
-                            <img src="images/logo-dark.png" alt="Company logo" width="118" height="37" class="logo-dark" />
+                            <img src="images/logo-white.png" title="Botsy" alt="Botsy" width="100" height="37" class="logo-white" />
+                            <img src="images/logo-dark.png" title="Botsy" alt="Botsy" width="100" height="37" class="logo-dark" />
                         </a>
                     </div>
                     
@@ -60,10 +57,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll">
-                            <li class="active"><a href="#home">Home</a></li>
+                            <li class="active"><a href="#home">Top</a></li>
                             <li><a href="#about">Who are we?</a></li>
                             <li><a href="#services">Our services</a></li>
 							<li><a href="#whyus">Why us?</a></li>
+							<li><a href="#clients">Who have we helped?</a></li>
+							<li><a href="#products">Our products</a></li>
                             <li><a href="#contact">Contact us</a></li>
                         </ul>
                     </div>
@@ -80,20 +79,18 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
                         
                         <!-- Video BG Init -->
-                        <!-- Please replace the video files in folder "video" with your own videos -->
                         <div class="bg-video-wrapper">
                             <video class="bg-video" preload="auto" autoplay loop muted playsinline data-object-fit="cover">
-                                <source src="video/video.mp4" type="video/mp4">
-                                <source src="video/video.webm" type="video/webm">                                    
+                                <source src="video/video.webm" type="video/webm">   
+                                <source src="video/video.mp4" type="video/mp4">                                 
                             </video>
                             <div class="bg-video-overlay bg-dark-alfa-50"></div>
                         </div>
-                        <a href="#" role="button" class="bg-video-button-muted"><i class="fa fa-volume-off"></i></a>
                         <!-- End Video BG Init -->
                         
                         <!-- Hero Content -->
                         <div class="home-content">
-                            <h1 class="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort" data-wow-delay=".1s">Achieve… the unreachable.</h1>
+                            <h1 class="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort companyFont" data-wow-delay=".1s">Achieve… the unreachable</h1>
                         </div>
                         <!-- End Hero Content -->
                         
@@ -137,17 +134,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Team item -->
                             <div class="col-md-4 mb-xs-30">
                                 <div class="team-item-wrap wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1.2s">
-                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-1.jpg);"></div>
+                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-1.png);"></div>
                                     <div class="team-item">
                                         <div class="team-item-image">
-                                            <img src="images/team/team-1.jpg" alt="" />
+                                            <img src="images/team/team-1.png" alt="" />
                                             <div class="team-item-detail">
                                                 <p>We develop high-quality software through innovation.</p>
-                                            </div>
-                                        </div>
-                                        <div class="team-item-descr">
-                                            <div class="team-item-name">
-                                                Mission
                                             </div>
                                         </div>
                                     </div>
@@ -158,17 +150,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Team item -->
                             <div class="col-md-4 mb-xs-30">
                                 <div class="team-item-wrap wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.2s">
-                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-2.jpg);"></div>
+                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-2.png);"></div>
                                     <div class="team-item">
                                         <div class="team-item-image">
-                                            <img src="images/team/team-2.jpg" alt="" />
+                                            <img src="images/team/team-2.png" alt="" />
                                             <div class="team-item-detail">
                                                 <p>To be the inspiration of brilliant minds to develop exceptional projects.</p>
-                                            </div>
-                                        </div>
-                                        <div class="team-item-descr">
-                                            <div class="team-item-name">
-                                                Vision
                                             </div>
                                         </div>
                                     </div>
@@ -179,17 +166,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Team item -->
                             <div class="col-md-4 mb-xs-30">
                                 <div class="team-item-wrap wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1.2s">
-                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-3.jpg);"></div>
+                                    <div class="team-item-decoration" style="background-image: url(images/team/team-decoration-3.png);"></div>
                                     <div class="team-item">
                                         <div class="team-item-image">
-                                            <img src="images/team/team-3.jpg" alt="" />
+                                            <img src="images/team/team-3.png" alt="" />
                                             <div class="team-item-detail">
-                                                <p>Achieve… the unreachable.</p>
-                                            </div>
-                                        </div>
-                                        <div class="team-item-descr">
-                                            <div class="team-item-name">
-                                                Slogan
+                                                <p>We are the right tool for your success.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -233,7 +215,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     </div>
                                     <h3 class="services-title">Software curation</h3>
                                     <div class="services-descr">
-                                        We pay attention to the details, even the smallest ones. This behavior allows us to provide a comprehensive and specific set of recommendations, which will help you to improve your existing applications, and increase the efficiency of your business.
+                                        We pay attention to the details, even the smallest ones. This allows us to provide a comprehensive and specific set of recommendations, which will help you to improve your existing applications, and increase the efficiency of your business.
                                     </div>
                                     <div class="services-more">
                                         <a href="#contact" class="text-link">Learn More</a>
@@ -388,15 +370,15 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <div class="call-action-2-images">
                                     
                                     <div class="call-action-2-image-1">
-                                        <img src="images/promo-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+                                        <img src="images/promo-3.png" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
                                     </div>
                                     
                                     <div class="call-action-2-image-2">
-                                        <img src="images/promo-4.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
+                                        <img src="images/promo-4.png" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
                                     </div>
                                     
                                     <div class="call-action-2-image-3">
-                                        <img src="images/promo-5.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
+                                        <img src="images/promo-5.png" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
                                     </div>
                                     
                                 </div>                                                                              
@@ -430,7 +412,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 </dl>
                                 
                                 <div class="local-scroll">
-                                    <a href="#contact" class="btn btn-mod btn-w btn-large btn-round">Start Project</a>
+                                    <a href="#contact" class="btn btn-mod btn-w btn-large btn-round">Start your project</a>
                                 </div>
                                 
                             </div>
@@ -447,6 +429,60 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <!-- End Divider -->
 
                 
+                <!-- Client Section -->
+				<section class="page-section bg-dark light-content" id="clients">
+                    <div class="container relative">
+                        
+                        <div class="text-center mb-80 mb-sm-50">
+                            <h2 class="section-title">Who have we helped?</h2>
+                        </div>
+                        
+                        <div style="text-align: center; display: flex; justify-content: space-evenly;">
+							<a href="https://www.lanvaleconsulting.com/" target="_blank" class="clients">
+								<img src="images/clients/lanvale.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+							</a>
+							<a href="https://www.informatica.com/" target="_blank" class="clients">
+								<img src="images/clients/informatica.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+							</a>
+						</div>
+                        
+                    </div>
+                </section>
+                <!-- End Contact Section -->
+                
+                
+                <!-- Divider -->
+                <hr class="mt-0 mb-0 white" />
+                <!-- End Divider -->
+
+                
+                <!-- Product Section -->
+				<section class="page-section bg-dark-lighter light-content" id="products">
+                    <div class="container relative">
+                        
+                        <div class="text-center mb-80 mb-sm-50">
+                            <h2 class="section-title">Our Products</h2>
+                        </div>
+                        
+                        <div style="text-align: center; display: flex; justify-content: space-evenly;">
+							<a href="https://www.botsy.app" target="_blank" class="products">
+								<img src="images/products/botsy.png" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" style="height: 80px !important;" />
+							</a>
+							<a href="https://www.zeros.mx" target="_blank" class="products">
+								<img src="images/products/zeros.png" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" style="height: 80px !important;" />
+							</a>
+						</div>
+                        
+                    </div>
+                </section>
+                <!-- End Contact Section -->
+                
+                
+                <!-- Divider -->
+                <hr class="mt-0 mb-0 white" />
+                <!-- End Divider -->
+
+                
                 <!-- Contact Section -->
                 <section class="page-section bg-dark light-content" id="contact">
                     <div class="container relative">
@@ -454,116 +490,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         <div class="text-center mb-80 mb-sm-50">
                             <h2 class="section-title">Want to discuss your new project?</h2>
                             <p class="section-title-descr">
-                                Contact us using any of our communication channels.
+                                Contact us!
                             </p>
                         </div>
                         
-                        <div class="row mb-60 mb-xs-40">
-                            
-                            <div class="col-md-10 offset-md-1">
-								
-                                <div class="row">
-                                    
-                                    <!-- Email -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fa fa-envelope"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                Email
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="mailto:hi@arcode.cloud">hi@arcode.cloud</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Email -->
-                                    
-                                    <!-- LinkedIn -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fab fa-linkedin-in"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                LinkedIn
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="https://mx.linkedin.com/company/arcode" target="_blank">Arcode</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End LinkedIn -->
-                                    
-                                    <!-- Facebook -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                Facebook
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="https://www.facebook.com/ArcodeCompany" target="_blank">ArcodeCompany</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Facebook -->
-                                    
-                                    <!-- Twitter -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fab fa-twitter"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                Twitter
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="https://www.twitter.com/ArcodeCompany" target="_blank">ArcodeCompany</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Twitter -->
-                                    
-                                    <!-- Instagram -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fab fa-instagram"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                Instagram
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="https://www.instagram.com/ArcodeCompany" target="_blank">ArcodeCompany</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Instagram -->
-                                    
-                                    <!-- YouTube -->
-                                    <div class="col-sm-6 col-lg-4 pb-20">
-                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                            <div class="ci-icon">
-                                                <i class="fab fa-youtube"></i>
-                                            </div>
-                                            <div class="ci-title">
-                                                YouTube
-                                            </div>
-                                            <div class="ci-link">
-                                                <a href="https://www.youtube.com/channel/UC3L_Qt_WjfLSkBGjH-52lqg" target="_blank">Arcode</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End YouTube -->
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
+                        <div class="footer-social-links mb-xs-40">
+							<a href="mailto:hi@botsy.mx"><i class="fa fa-envelope"></i></a>
+						</div>
                         
                     </div>
                 </section>
@@ -572,16 +505,14 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             </main>
             
             <!-- Footer -->
-            <footer class="page-section bg-dark-lighter light-content footer pb-100 pb-sm-50">
+            <footer class="page-section bg-dark-lighter light-content footer pb-40 pb-sm-50">
                 <div class="container">
                     
                     <!-- Footer Text -->
                     <div class="footer-text">
                         
                         <!-- Copyright -->
-                        <div class="footer-copy">
-                            <a href="index.html">© Arcode 2021</a>.
-                        </div>
+                        <div class="footer-copy">© 2024 Botsy Enterprises LLC. All rights reserved.</div>
                         <!-- End Copyright -->
                         
                     </div>
@@ -609,25 +540,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <script src="js/SmoothScroll.js"></script>
         <script src="js/jquery.scrollTo.min.js"></script>
         <script src="js/jquery.localScroll.min.js"></script>
-        <script src="js/jquery.viewport.mini.js"></script>
-        <script src="js/jquery.countTo.js"></script>
-        <script src="js/jquery.appear.js"></script>
-        <script src="js/jquery.parallax-1.1.3.js"></script>
         <script src="js/jquery.fitvids.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/masonry.pkgd.min.js"></script>
         <script src="js/jquery.lazyload.min.js"></script>
         <script src="js/wow.min.js"></script>
-        <script src="js/morphext.js"></script>
-        <script src="js/typed.min.js"></script>
         <script src="js/all.js"></script>
-        <script src="js/contact-form.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/objectFitPolyfill.min.js"></script>
-        <script src="js/splitting.min.js"></script>
         
     </body>
 </html>

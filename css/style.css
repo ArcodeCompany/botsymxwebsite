@@ -145,6 +145,49 @@ html, body{
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;    
 }
+.companyFont {
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 2em !important;
+    font-weight: 100 !important;
+}
+
+/* Clients and Products. */
+.clients {
+	color: #10002B !important;
+}
+.clients > img{
+	margin: 10px !important;
+}
+.products {
+	color: #10002B !important;
+}
+.products > img{
+	margin: 10px !important;
+}
+@media only screen and (min-width: 501px) {
+	.clients > img {
+		height: 90px !important;
+	}
+	.products > img { 
+		height: 200px !important;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.clients > img {
+		max-width: 300px !important;
+	}
+	.products > img {
+		max-width: 300px !important;
+	}
+}
+@media screen and (max-device-width: 640px){
+	.clients > img {
+		max-width: 300px !important;
+	}
+	.products > img {
+		max-width: 300px !important;
+	}
+}
 
 iframe{
     border: none;
@@ -1333,7 +1376,6 @@ a.bg-video-button-muted{
     font-size: 22px;
     line-height: 1.4;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 0.0454545em;
 }
 .hs-line-4{
@@ -2442,16 +2484,16 @@ a.logo:hover{
     color: #ffffff;
 }
 .bg-dark{
-    background-color: #111 !important;
+    background-color: #10002B !important;
 }
 .bg-dark-lighter{
-    background-color: #1b1b1b !important;
+    background-color: #22003E !important;
 }
 .bg-dark.light-content{
-    background-color: #1b1b1b !important;
+    background-color: #10002B !important;
 }
 .bg-dark-lighter.light-content{
-    background-color: #232323 !important;
+    background-color: #22003E !important;
 }
 .bg-dark,
 .bg-dark-lighter,
@@ -4348,6 +4390,7 @@ a.logo:hover{
 .footer{
     text-align: center;
     font-size: 18px;   
+	padding-top: 35px;
 }
 .footer a{
     text-decoration: none;    
@@ -4363,6 +4406,7 @@ a.logo:hover{
     font-weight: 600;
     color: #171717;
     opacity: .9;
+	font-size: 0.7em;
 }
 .footer-made{
     font-size: 14px;
@@ -4371,8 +4415,10 @@ a.logo:hover{
 }
 .footer-social-links{
     font-size: 16px;
+	text-align: center;
 }
 .footer-social-links a{
+	text-decoration: none;
     width: 54px;
     height: 54px;
     line-height: 54px !important;
